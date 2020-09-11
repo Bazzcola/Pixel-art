@@ -13,6 +13,7 @@ export const useStyles = createUseStyles({
     },
     colorSwatchContainer: {
         display: 'flex',
+        height: '100px',
     },
     colorSwatch: {
         margin: '1rem',
@@ -21,6 +22,12 @@ export const useStyles = createUseStyles({
         height: '50px',
         outline: 'none',
         border: 'none',
+        cursor: 'pointer',
+    },
+    clear: {
+        outline: "none",
+        fontSize: "14px",
+        fontWeight: "600",
         cursor: 'pointer',
     }
 });

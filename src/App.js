@@ -24,7 +24,9 @@ function App() {
   };
   return (
     <div className={classes.app}>
-      <button onClick={clearArea}>CLEAR</button>
+      <button onClick={clearArea} className={classes.clear}>
+        CLEAR
+      </button>
       <ColorPicker
         currentColor={currentColor}
         setCurrentColor={setCurrentColor}
